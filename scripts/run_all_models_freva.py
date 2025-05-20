@@ -89,9 +89,10 @@ ALL_CMIP6_SCENARIOS = ["ssp119", "ssp126", "ssp245", "ssp370", "ssp434", "ssp460
 ALL_CMIP5_SCENARIOS = ["rcp26", "rcp45", "rcp60", "rcp85"]
 
 # Define models and experiments
-CMIP6_MODELS = [
-    "MPI-ESM1-2-LR"  # Only include MPI-ESM1-2-LR for testing
-]
+#CMIP6_MODELS = [
+#    "MPI-ESM1-2-LR"  # Only include MPI-ESM1-2-LR for testing
+#]
+CMIP6_MODELS =  ALL_CMIP6_MODELS
 
 CMIP6_EXPERIMENTS = [
     "historical",

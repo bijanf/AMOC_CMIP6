@@ -13,4 +13,4 @@
 module load clint codes
 
 # Run the Python script for both CMIP5 and CMIP6 models, limiting plots to 2100
-python scripts/run_all_models_freva.py --cmip6 --end-year 2100 
+python scripts/run_all_models_freva.py --all --cmip6 --end-year 2100 
